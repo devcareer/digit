@@ -23,6 +23,4 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] I have performed a self-review of my own code
 - [ ] I followed the Sass 7-1 Architecture
 - [ ] My changes generate no conflicts
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] I have tested my changes and it worked very fine
+- [ ] I have ran _yarn build-css_ or _npm run build-css_
