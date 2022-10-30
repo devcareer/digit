@@ -1,14 +1,10 @@
 // Abstracts files
 
-@import "./abstracts/functions";
-@import "./abstracts/mixins";
-@import "./abstracts/variables";
+@import "./abstracts/functions", "./abstracts/mixins", "./abstracts/variables";
 
 //Base files
 
-@import "./base/normalize";
-@import "./base/reset";
-@import "./base/typography";
+@import "./base/normalize", "./base/reset", "./base/typography";
 
 //Components files
 
@@ -16,16 +12,12 @@
 
 //Layout files
 
-@import "./layout/footer";
-@import "./layout/header";
+@import "./layout/footer", "./layout/header";
 
 //Pages files
 
-@import "./pages/contact";
-@import "./pages/home";
-@import "./pages/login";
-@import "./pages/register";
-@import "./pages/services";
+@import "./pages/contact", "./pages/home", "./pages/login", "./pages/register",
+  "./pages/services";
 
 //Themes files
 

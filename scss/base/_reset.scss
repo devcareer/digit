@@ -72,3 +72,16 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+//For responsive container
+.container {
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  width: 1300px;
+  max-width: 100%;
+  margin: 0 auto;
+}
