@@ -20,6 +20,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 # Checklist:
 
 - [ ] My code follows the style guidelines of this project
+- [ ] I have attached screenshots of the output of this task
 - [ ] I have performed a self-review of my own code
 - [ ] I followed the Sass 7-1 Architecture and BEM Methodology
 - [ ] My changes generate no conflicts
