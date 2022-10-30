@@ -1,21 +1,26 @@
 // Abstracts files
+
 @import "./abstracts/functions";
 @import "./abstracts/mixins";
 @import "./abstracts/variables";
 
 //Base files
+
 @import "./base/normalize";
 @import "./base/reset";
 @import "./base/typography";
 
 //Components files
+
 @import "./components/navbar";
 
 //Layout files
+
 @import "./layout/footer";
 @import "./layout/header";
 
 //Pages files
+
 @import "./pages/contact";
 @import "./pages/home";
 @import "./pages/login";
@@ -23,7 +28,9 @@
 @import "./pages/services";
 
 //Themes files
+
 @import "./themes/theme";
 
 //Vendors files
+
 @import "./vendors/carousel";

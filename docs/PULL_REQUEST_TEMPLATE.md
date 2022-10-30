@@ -21,6 +21,6 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my own code
-- [ ] I followed the Sass 7-1 Architecture
+- [ ] I followed the Sass 7-1 Architecture and BEM Methodology
 - [ ] My changes generate no conflicts
 - [ ] I have ran _yarn build-css_ or _npm run build-css_

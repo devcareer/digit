@@ -11,7 +11,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch-sass": "node-sass scss/main.scss css/style.css --watch",
+    "watch-sass": "node-sass scss/main.scss css/style.css --w --r",
     "compile-sass": "node-sass scss/main.scss css/style.comp.css",
     "concat-css": "concat -o css/style.concat.css css/additional.css css/style.comp.css",
     "prefix-css": "postcss --use autoprefixer -b 'last 5 versions' css/style.concat.css -o css/style.prefix.css",
