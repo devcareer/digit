@@ -1,8 +1,8 @@
 # Digit Website
 
-## Figma URL: [link](https://google.com)
+## Figma URL: [link](https://www.figma.com/file/oxz27W82DmlDFy9MvdF4IP/Digit?node-id=0%3A1)
 
-## Live URL: [link](https://google.com)
+## Live URL: [link](#)
 
 > **Technology tools:**
 >
@@ -15,6 +15,7 @@
 >
 > - yarn install or npm run install
 > - yarn watch-sass or npm run watch-sass
+> - open live server in your vscode
 
 > #### To run a production build
 >
