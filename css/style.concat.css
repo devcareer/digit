@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -378,8 +379,6 @@ select {
   width: 1300px;
   max-width: 100%;
   margin: 0 auto; }
-<<<<<<< HEAD
-=======
 
 .foot {
   background-color: #f0f0f0; }
@@ -393,14 +392,6 @@ select {
     padding-bottom: 1.6rem;
     padding-left: 2rem;
     padding-right: 2rem; }
-    @media (min-width: 1440px) and (max-width: 9999px) {
-      .foot__container {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 3.87rem;
-        padding-bottom: 3.648rem;
-        padding-left: 7.562rem;
-        padding-right: 7.375rem; } }
   .foot__digit {
     max-width: 33.93rem;
     flex-shrink: 0; }
@@ -409,9 +400,6 @@ select {
     gap: 0.822rem;
     padding-bottom: 1rem; }
     @media (min-width: 481px) and (max-width: 768px) {
-      .foot__first-icons {
-        padding-bottom: 2.5rem; } }
-    @media (min-width: 769px) and (max-width: 9999px) {
       .foot__first-icons {
         padding-bottom: 2.5rem; } }
   .foot__description {
@@ -425,25 +413,19 @@ select {
         font-size: 1.5rem;
         line-height: 36px;
         padding-bottom: 2.187rem; } }
-    @media (min-width: 769px) and (max-width: 9999px) {
-      .foot__description {
-        font-size: 1.5rem;
-        line-height: 36px;
-        padding-bottom: 2.187rem; } }
   .foot__second-icons {
     display: flex;
     gap: 1.336rem; }
   .foot__about {
     padding-top: 1rem; }
-    @media (min-width: 768px) and (max-width: 9999px) {
+    @media (min-width: 481px) and (max-width: 768px) {
       .foot__about {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
         gap: 52px;
-        padding-top: 2rem;
-        max-width: 1240px; } }
-    @media (min-width: 1440px) and (max-width: 9999px) {
+        padding-top: 2rem; } }
+    @media (min-width: 1025px) and (max-width: 1200px) {
       .foot__about {
         padding-top: 0; } }
   .foot__company {
@@ -465,16 +447,9 @@ select {
       .foot__menu {
         font-size: 1.5rem;
         line-height: 36px; } }
-    @media (min-width: 769px) and (max-width: 9999px) {
-      .foot__menu {
-        font-size: 1.5rem;
-        line-height: 36px; } }
   .foot__list {
     padding-bottom: 0.2rem; }
     @media (min-width: 481px) and (max-width: 768px) {
-      .foot__list {
-        padding-bottom: 1.437rem; } }
-    @media (min-width: 769px) and (max-width: 9999px) {
       .foot__list {
         padding-bottom: 1.437rem; } }
   .foot__heading {
@@ -482,10 +457,6 @@ select {
     font-size: 1rem;
     line-height: 34px; }
     @media (min-width: 481px) and (max-width: 768px) {
-      .foot__heading {
-        font-weight: 700;
-        font-size: 1.75rem; } }
-    @media (min-width: 769px) and (max-width: 9999px) {
       .foot__heading {
         font-weight: 700;
         font-size: 1.75rem; } }
@@ -498,4 +469,3 @@ select {
     font-weight: 700;
     font-size: 16px;
     line-height: 28px; }
->>>>>>> af2c51f (footer initial commit)

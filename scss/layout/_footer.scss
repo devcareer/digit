@@ -1,0 +1,165 @@
+.foot {
+    background-color: $grey_0;
+
+    &__wrapper {
+        width: 1512px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    &__container {
+        display: block;
+        padding-top: 1.6rem;
+        padding-bottom: 1.6rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+        @include custom-query(1440px, 9999px){
+            display: flex;
+            justify-content: space-between;
+            padding-top: 3.87rem;
+            padding-bottom: 3.648rem;
+            padding-left: 7.562rem;
+            padding-right: 7.375rem;
+        }
+    }
+    
+    &__digit {
+        max-width: 33.93rem;
+        flex-shrink: 0;
+    }
+
+    &__first-icons {
+        display: flex;
+        gap: 0.822rem;
+        padding-bottom: 1rem;
+
+        @include for-tablet-portrait-up {
+            padding-bottom: 2.5rem;
+        }
+
+        @include custom-query(769px, 9999px)  {
+            padding-bottom: 2.5rem;
+        }
+    }
+
+    &__description {
+        color: $grey_1200;
+        font-weight: 500;
+        font-size: 0.75rem;
+        line-height: 25px;
+        padding-bottom: 1rem;
+
+        @include for-tablet-portrait-up {
+            font-size: 1.5rem;
+            line-height: 36px;
+            padding-bottom: 2.187rem;
+        }
+
+        @include custom-query(769px, 9999px)  {
+            font-size: 1.5rem;
+            line-height: 36px;
+            padding-bottom: 2.187rem;
+        }
+    }
+
+    &__second-icons {
+        display: flex;
+        gap: 1.336rem;
+    }
+    
+    &__about {
+        padding-top: 1rem;
+
+        @include custom-query(768px, 9999px) {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 52px;
+            padding-top: 2rem;
+            max-width: 1240px;
+        }
+
+        @include custom-query(1440px, 9999px) {
+            padding-top: 0;
+        }
+    }
+
+    &__company {
+        margin-right: 22px;
+        max-width: 7.937rem;
+    }
+
+    &__services {
+        max-width: 9.312rem;
+        flex-shrink: 0;
+    }
+
+    &__contact {
+        max-width: 13.81rem;
+    }
+
+    &__menu {
+        list-style: none;
+        color: $grey_1200;
+        font-weight: 500;
+        font-size: 0.75rem;
+        line-height: 36px;
+        padding-left: 0;
+
+
+        @include for-tablet-portrait-up {
+            font-size: 1.5rem;
+            line-height: 36px;
+        }
+
+        @include custom-query(769px, 9999px)  {
+            font-size: 1.5rem;
+            line-height: 36px;
+        }
+    }
+
+    &__list {
+        padding-bottom: 0.2rem;
+
+        @include for-tablet-portrait-up {
+            padding-bottom: 1.437rem;
+        }
+
+        @include custom-query(769px, 9999px)  {
+            padding-bottom: 1.437rem;
+        }
+    }
+
+    &__heading {
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 34px;
+
+        @include for-tablet-portrait-up {
+            font-weight: 700;
+            font-size: 1.75rem;
+        }
+
+        @include custom-query(769px, 9999px)  {
+            font-weight: 700;
+            font-size: 1.75rem;
+        }
+    }
+
+    &__copyright-division {
+        background: #DDDDDD;
+    }
+
+    &__copy-right {
+        text-align: center;
+        padding-top: 1.75rem;
+        padding-bottom: 1.75rem;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+
+
+}
