@@ -1,0 +1,136 @@
+.blog {
+  background-color: #ffffff;
+
+  &__description {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  &__title {
+    color: $sky_blue_900;
+    font-weight: 700;
+    font-size: 1.25rem;
+
+    @include for-desktop-up {
+      font-size: 1.5rem;
+    }
+
+    @include for-big-desktop-up {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__subtitle {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: $grey_1200;
+
+    @include for-desktop-up {
+      font-size: 2.75rem;
+    }
+
+    @include for-big-desktop-up {
+      font-size: 2.75rem;
+    }
+  }
+
+  &__card {
+    display: block;
+    gap: 34px;
+
+    @include for-tablet-landscape-up {
+      display: flex;
+      justify-content: center;
+    }
+
+    @include for-desktop-up {
+      display: flex;
+      justify-content: center;
+    }
+
+    @include for-big-desktop-up {
+      display: flex;
+      justify-content: center;
+    }
+
+    &-wrap {
+      width: 100%;
+      max-width: 414px;
+      border: 2px solid $grey_0;
+      border-radius: 20px;
+      margin: auto auto 24px;
+      display: flex;
+      flex-direction: column;
+
+      @include for-tablet-landscape-up {
+        max-width: 366px;
+        margin: unset;
+        flex: 0 1 calc(33.3% - 20px);
+      }
+
+      @include for-desktop-up {
+        max-width: 366px;
+        margin: unset;
+        flex: 0 1 calc(33.3% - 20px);
+      }
+
+      @include for-big-desktop-up {
+        max-width: 366px;
+        margin: unset;
+        flex: 0 1 calc(33.3% - 20px);
+      }
+    }
+
+    &-img {
+      & .blog__img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    &-texts {
+      margin-top: 15px;
+      padding-left: 19px;
+      padding-right: 19px;
+      color: $grey_1200;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    &-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 18px;
+
+      @include for-desktop-up {
+        font-size: 1.75rem;
+      }
+
+      @include for-big-desktop-up {
+        font-size: 1.75rem;
+      }
+    }
+
+    &-text {
+      font-weight: 500;
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+
+      @include for-desktop-up {
+        font-size: 1.5rem;
+      }
+
+      @include for-big-desktop-up {
+        font-size: 1.5rem;
+      }
+    }
+
+    &-cta {
+      color: $royal_blue_700;
+      display: inline-block;
+      padding-bottom: 20px;
+      font-size: 16px;
+    }
+  }
+}
