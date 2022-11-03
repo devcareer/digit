@@ -1,0 +1,119 @@
+
+    <div class="wrapper" id="second">
+      <div class="team">
+        <img src="/assets/icons/TEAM.png" alt="text" />
+        <img src="/assets/icons/line.png" alt="horizontal line" />
+      </div>
+
+      <div class="main">
+        <h1>Our Creative Team</h1>
+
+        <p class="heading__team">
+          Here is our creative team members.<br />
+          Do well to check there pictures and specifications.
+        </p>
+
+        <div class="main-wrap">
+          <div class="main-wrap__image">
+            <img src="/assets/images/Man on suit.png" alt="A man" />
+          </div>
+
+          <div class="main-wrap__main">
+            <div class="main-wrap__main_man">
+              <h2>Drego Phillip</h2>
+              <h3>Senior UI/UX Designer</h3>
+              <p class="intro">
+                I'm from United Kingdom and I'm a UI/UX Designer with 13 years
+                of experience.I'm presently living in Nigeria.
+              </p>
+            </div>
+            <div class="icon-arrows">
+              <div class="icons">
+                <img src="/Assets/icons/fbk icon (2).png" alt="facebook icon" />
+                <img
+                  src="/Assets/icons/twitter icon (2).png"
+                  alt="twitter icon"
+                />
+                <img
+                  src="/Assets/icons/whatsapp icon.png "
+                  alt="whatsapp icon"
+                />
+                <img
+                  src="/Assets/icons/instagram icon (2).png"
+                  alt="instagram icon"
+                />
+                <img src="/Assets/icons/linkedin icon.png" alt="linkdin icon" />
+              </div>
+
+              <div class="arrows">
+                <img src="Assets/icons/Arrows (2).png" class="prev-btn" alt="arrows" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper" id="first">
+      <div class="team">
+        <img src="/Assets/Images/TESTIMONIAL.png" alt="text" />
+        <img src="/Assets/icons/line.png" alt="horizontal line" />
+      </div>
+
+      <div class="main">
+        <h1>Let's See What Our Customers<br />Think About Us</h1>
+
+        <p class="heading__team">
+          Here is our creative team members.<br />
+          Do well to check there pictures and specifications.
+        </p>
+
+        <div class="main-wrap">
+          <div class="main-wrap__image">
+            <img src="./assets/Images/woman.png" alt="A Lady" />
+          </div>
+
+          <div class="main-wrap__main">
+            <div class="main-wrap__main_man">
+              <h2>Okafor Precious</h2>
+              <h3>Onnyx Fashion Store</h3>
+              <p class="para">
+                This company is our one-stop-shop agency for everything digital
+                marketing, branding and website design to help small businesses
+                thrive online. They build effective strategies to help you reach
+                customers and prospects across the entire web
+              </p>
+            </div>
+            <div class="icon-arrows">
+              <div class="star-icons">
+                <img src="Assets/icons/stars.png" alt="" />
+              </div>
+
+              <div class="arrows">
+                <img
+                  src="./Assets/icons/Arrows (2).png"
+                  class="next-btn"
+                  alt="arrows"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document
+        .querySelector(".next-btn")
+        .addEventListener(
+          "click",
+          () => (document.getElementById("second").style.display = "flex", document.getElementById("first").style.display = "none" )
+        );
+
+        document
+        .querySelector(".prev-btn")
+        .addEventListener(
+          "click",
+          () => (document.getElementById("first").style.display = "flex", document.getElementById("second").style.display = "none" )
+        );
+    </script>
+  
