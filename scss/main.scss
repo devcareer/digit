@@ -9,10 +9,12 @@
 //Components files
 
 @import "./components/navbar";
+@import "./components/header";
+@import "./components/blog";
 
 //Layout files
 
-@import "./layout/footer", "./layout/header";
+@import "./layout/footer", "./layout/header", "./layout/contact-header";
 
 //Pages files
 
