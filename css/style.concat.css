@@ -943,6 +943,104 @@ select {
     font-size: 16px;
     line-height: 28px; }
 
+.form__wrapper {
+  width: 1512px;
+  max-width: 100%;
+  margin: 0 auto; }
+
+.form__container {
+  padding-top: 5.75rem;
+  padding-bottom: 9.687rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  background-color: #ffffff;
+  position: relative; }
+
+.form__message {
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 25px;
+  color: #04647D;
+  transform: rotate(-90deg);
+  align-self: flex-start;
+  position: absolute;
+  top: 104px;
+  left: -20px; }
+  @media (min-width: 768px) and (max-width: 9999px) {
+    .form__message {
+      font-size: 1.5rem;
+      line-height: 36px;
+      left: -40px; } }
+
+.form__divider {
+  width: 0px;
+  height: 488px;
+  border: 5px solid #04647D;
+  background-color: #04647D; }
+  @media (min-width: 768px) and (max-width: 9999px) {
+    .form__divider {
+      border: 10px solid #04647D; } }
+
+.form__content {
+  flex: 1; }
+
+.form__head {
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  color: #111111;
+  padding-bottom: 0.5rem; }
+  @media (min-width: 768px) and (max-width: 9999px) {
+    .form__head {
+      font-size: 44px;
+      line-height: 55px;
+      padding-bottom: 1.5rem; } }
+
+.form__description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  max-width: 25ch;
+  color: #111111;
+  padding-bottom: 1.5rem; }
+  @media (min-width: 768px) and (max-width: 9999px) {
+    .form__description {
+      font-size: 24px;
+      padding-bottom: 2.75rem;
+      line-height: 36px;
+      max-width: 100%; } }
+
+.form__label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 36px;
+  color: #111111;
+  padding-bottom: 4px; }
+  @media (min-width: 768px) and (max-width: 9999px) {
+    .form__label {
+      font-size: 24px; } }
+
+.form__input {
+  width: 100%;
+  height: 50px;
+  background: #f0f0f0;
+  border-radius: 12px;
+  outline: none;
+  border: none; }
+  @media (min-width: 768px) and (max-width: 9999px) {
+    .form__input {
+      width: 806px;
+      height: 86px; } }
+
+.form__textarea {
+  width: 100%;
+  height: 150px; }
+  @media (min-width: 768px) and (max-width: 9999px) {
+    .form__textarea {
+      width: 806px;
+      height: 187px; } }
 .contact-header {
   display: flex;
   justify-content: space-between;
