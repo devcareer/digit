@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reg.css" />
+    <title>Digit Register Page</title>
+  </head>
+  <body>
+<div class="contact-form">
+  <h2 class="con-title">Create Account</h2>
+  <p class="conRegist-paragraph">
+      Enter your details to get start your track 
+      started with us.
+
+    <div className="form-container">
+      <div className="register-form-container">
+        <form className="register-form" onSubmit={formSubmit}>
+          <div className="form-group">
+            <label htmlFor="name">
+              Name
+              <br />
+              <input type="text" name="name" id="register-name" className="form-control" placeholder="Enter your name" required onChange={(e) =>
+            </label>
+          </div>
+          <div className="form-group">
+            <label htmlFor="email">
+              Email
+              <br />
+              <input type="email" name="email" id="register-email" className="form-control" placeholder="Enter your email" required onChange={(e) => 
+            </label>
+          </div>
+          <div className="form-group">
+            <label htmlFor="phonenumber">
+              Phone number
+              <br />
+              <input type="phone number" name="phone number" id="register-phone number" className="form-control" placeholder="Enter your phone number" required onChange={(e) =>
+            </label>
+          </div>
+          <div className="form-group">
+            <label htmlFor="Address">
+              Address
+              <br />
+              <input type="  Address" name="  Address" id="register-Address" className="form-control" placeholder="Enter your   Address" required onChange={(e) =>
+            </label>
+          </div>
+          <div className="form-group">
+            <label htmlFor="Gender">
+                Gender
+              <br />
+              <input type="  gender" name=" gender" id="register-gender" className="form-control" placeholder="Enter your  gender" required onChange={(e) => 
+            </label>
+          </div>
+          <div className="form-group">
+            <label htmlFor="Age Range">
+                Age Range
+              <br />
+              <input type=" Age Range" name=" Age Range" id="register-Age Range" className="form-control" placeholder="Enter your  Age Range" required onChange={(e) => 
+            </label>
+          </div>
+          <div className="form-group">
+            <label htmlFor="Track">
+                Track
+              <br />
+              <input type=" Track" name=" Track" id="register-Track" className="form-control" placeholder="Enter your  Track" required onChange={(e) => 
+            </label>
+          </div>
+          <div className="form-group">
+            <label htmlFor="Time Dedication">
+                Time Dedication
+              <br />
+              <input type=" Time Dedication" name=" Time Dedication" id="register-Time Dedication" className="form-control" placeholder="Enter your  Time Dedication" required onChange={(e) => 
+            </label>
+          </div>
+          <div className="form-group">
+            <label htmlFor="Employment Status">
+                Employment Status
+              <br />
+              <input type=" Employment Status" name=" Employment Status" id="register-Employment Status" className="form-control" placeholder="Enter your  Employment Status" required onChange={(e) => 
+            </label>
+          </div>
+          <div className="register-buttons">
+            <button type="submit" className="register-btn" to="/signin">Register</button>
+          </div>
+        </form>
+        <div className="notice-account">
+          <p>
+            Already have an account?
+            <span><Link className="login-link" id="register-on-login" to="/login">Login</Link></span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </body>
+  </html>

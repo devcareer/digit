@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <title>Digit Login</title>
+  </head>
+  <body>
+ <div class="contact-form">
+    <h2 class="con-title">Login to your Account</h2>
+    <p class="conlogin-paragraph">
+        Welcome back!
+    <div className="form-container">
+      <div className="login-form-container">
+        <form className="login-form" onSubmit={formSubmit}>
+          <div className="form-group">
+            <label htmlFor="email">
+                      Email
+                      <br />
+                      <input type="email" name="email" id="signup-email" className="form-control" placeholder="Enter your email" required onChange={(e) => 
+                    </label>
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="password">
+                      Password
+                      <br />
+                      <input type="password" name="password" id="signup-password" className="form-control" placeholder="Enter your password" required onChange={(e) => 
+                    </label>
+                  </div>
+                  <a href="forgot password?" class="forgot">forgot password?</a>
+          <div className="signup-buttons">
+            <button type="submit" className="login-btn" to="/">Login</button>
+          </div>
+        </form>
+
+        <div className="notice-account">
+          <p>
+            Dont have an account?
+            <span><Link className="login-link" to="/register" id="login-on-signup">Register</Link></span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+  
