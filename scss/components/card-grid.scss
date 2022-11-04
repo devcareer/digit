@@ -1,73 +1,78 @@
-
-.services-wrap{
-     width:80%;
-     margin: 5% auto; 
-     display: flex;  
-}
-
-.heading{
- display: flex;
- align-items: flex-start;
- gap: 10px;
-}
-
-.services{
-    border: none;
-    border-radius: 5px;
-    padding-left: 40px;
-
-    &__h3{
-        font-size: 18px;
-        width: 100%;
-    }
-    &__p{
-        font-size: 15px;
-        width: 100%;
-        padding-bottom: 10px;
-    }
-    &__boxes{
-         display: block;
-         align-items: center;
-         border-radius: 10px;
-    }
-    &__design{
-           background-color: $sky_blue_50;
+@media(min-width: 300px){
+    .services-wrap{
+        width:90%;
+        margin: 5% auto; 
+        display: flex; 
+        &__h3{
+            color: $royal_blue_700;
+           writing-mode:vertical-lr;
+        } 
+       }
+   
+   .services{
+       border: none;
+       border-left: 6px solid $royal_blue_700;
+       border-radius: 5px;
+       padding-left: 20px;
+   
+       &__h3{
+           font-size: 18px;
+           padding-bottom: 30px;
            width: 100%;
+       }
+       &__p{
+           font-size: 15px;
+           width: 100%;
+           padding-bottom: 30px;
+       }
+       &__boxes{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: left;
+            border-radius: 10px;
+       }
+       &__design{
+              background-color: $sky_blue_50;
+              width: 90%;
+              padding: 20px;
+              border-radius: 10px;
+              margin-bottom: 5%;
+           &_image{
+                width: 150px;
+                height: 150px;
+       }
+     
+       &_text h3{
+           font-size: 18x;
+          }
+          &_text p{
+           font-size: 15px;
+          }
+       }
+       &__design2{
+           background-color: $grey_100;
+           width: 90%;
            padding: 20px;
            border-radius: 10px;
-           margin-bottom: 5%;
-        &_image{
-             width: 150px;
-             height: 150px;
-    }
-  
-    &_text h3{
-        font-size: 18x;
+           margin-bottom: 5%
        }
-       &_text p{
-        font-size: 15px;
+       &__design3{
+           background-color:$grey_200;
+           padding: 20px;
+           width:90%;
+           border-radius: 10px;
        }
-    }
-    &__design2{
-        background-color: $grey_100;
-        width: 100%;
-        padding: 20px;
-        border-radius: 10px;
-        margin-bottom: 5%
-    }
-    &__design3{
-        background-color:$grey_200;
-        padding: 20px;
-        width:100%;
-        border-radius: 10px;
-    }
+   }
 }
 
-//ttablets
-@media(min-width:769px){
+
+
+//tablets
+@media(min-width: 769px) {
     .services{
         &__h3{
-            font-size: 44px;
+            font-size: 30px;
             width: 70%;
         }
         &__p{
@@ -75,15 +80,13 @@
             width: 90%;
         }
         &__boxes{
-             display: grid;
-             grid-template-columns: 40% 40%;
-            gap: 10%;
+            flex-wrap: wrap;
+            flex-direction:row;
              border-radius: 10px;
         }
         &__design{
-               background-color: #E2F9FF;
-               width: 100%;
-               height: 500px;
+               width: 45%;
+               height: 510px;
             &_image{
                  width: 150px;
                  height: 150px;
@@ -97,57 +100,110 @@
            }
         }
         &__design2{
-            background-color: #E9EEFF;
-            width: 100%;
-            height: 500px;
+            width: 45%;
+            height: 510px;
         
         }
         &__design3{
-            background-color:#ECECEC;
-            width: 100%;
-            height: 500px;
+            width: 45%;
+            height: 510px;
         }
     }
 }
+@media(min-width: 1025px) {
+    .services{
+        &__h3{
+            font-size: 44px;
+            width: 70%;
+        }
+        &__p{
+            font-size: 24px;
+            width: 90%;
+        }
+        &__boxes{
+            border-radius: 10px;
+        }
+        &__design{
+            width: 30%;
+         height: 500px;
+         margin: 0;
+
+     }
+     &__design2{
+         width: 30%;
+         height: 500px;
+      
+
+     }
+     &__design3{
+         width:30%;
+         height: 500px;
+        margin: 0;
+     }
+   
+      
+        &_text h3{
+            font-size: 32px;
+           }
+           &_text p{
+            font-size: 24px;
+           }
+        }
+      
+        
+    }
+
 //laptop
 @media(min-width:1200px){
     .services{
         &__h3{
-            font-size: 44px;
             width: 45%;
         }
         &__p{
-            font-size: 24px;
             width: 75%;
         }
         &__boxes{
-            display: grid;
-            grid-template-columns: 30% 30% 30%;
-            gap: 5%;
-  
+            border-radius: 10px;
         }
         &__design{
-               background-color: #E2F9FF;
-               width: 100%;
-            height: 480px;
-            margin: 0;
+            width: 30%;
+         height: 480px;
+         
 
-        }
-        &__design2{
-            background-color: #E9EEFF;
-            width: 100%;
-            height: 480px;
-            margin: 0;
+     }
+     &__design2{
+         width: 30%;
+         height: 480px;
+     }
+     &__design3{
+         width:30%;
+         height: 480px;
+     }
+   
+      
+        
+//         &__design{
+//                background-color: #E2F9FF;
+//                width: 100%;
+//             height: 480px;
+//             margin: 0;
 
-        }
-        &__design3{
-            background-color:#ECECEC;
-            width:100%;
-            height: 480px;
-           margin: 0;
-        }
-        &__design3 p{
-text-overflow: ellipsis;
-        }
+//         }
+//         &__design2{
+//             background-color: #E9EEFF;
+//             width: 100%;
+//             height: 480px;
+//             margin: 0;
+
+//         }
+//         &__design3{
+//             background-color:#ECECEC;
+//             width:100%;
+//             height: 480px;
+//            margin: 0;
+//         }
+//         &__design3 p{
+// text-overflow: ellipsis;
+//         }
     }
 }
