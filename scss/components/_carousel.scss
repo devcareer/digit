@@ -15,9 +15,13 @@
         align-items:flex-start ;
         gap: 10px;
     }
-
+.team h3 {
+  writing-mode: vertical-lr;
+  color:rgb(4, 64, 88);
+}
     .main{
         padding-left: 40px;
+        border-left: 6px rgb(4, 64, 88) solid;
     }
     
     .main-wrap{
@@ -86,6 +90,4 @@
         .arrows img {
         width: 80px;
         }
-      }
-      
-    
+      }  
