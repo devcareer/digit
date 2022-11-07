@@ -830,15 +830,21 @@ select {
 .wrapper {
   width: 90%;
   margin: auto;
-  display: flex; }
+  display: flex;
+  border: none; }
 
 .team {
   display: flex;
   align-items: flex-start;
   gap: 10px; }
 
+.team h3 {
+  writing-mode: vertical-lr;
+  color: #044058; }
+
 .main {
-  padding-left: 40px; }
+  padding-left: 40px;
+  border-left: 6px #044058 solid; }
 
 .main-wrap {
   display: flex;
