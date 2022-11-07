@@ -1,0 +1,130 @@
+.servico{
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.rafter{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1300px;
+  max-width: 100%;
+  margin: 0 auto;
+  gap: 80px;
+}
+
+// first container
+
+.shapes{
+  display: flex;
+}
+.shapes--small{
+  background: $sky_blue_100;
+}
+.shapes__small{
+  width: 287px;
+  height: 338px;
+  border-radius: 0px 0px 500px 500px;
+  position: relative;
+}
+.innersm{
+  position: absolute;
+  left: 31.51px;
+  top: 98px;
+  background-color: #d9d9d9;
+  background-image: url('/assets/images/a\ happy\ excited\ man\ holding\ laptop\ computer\ 1.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 222.16px;
+  height: 222px;
+  border-radius: 388.655px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  transform: rotate(-360deg);
+}
+.shapes--big{
+  background: $royal_blue_500;
+  border-radius: 0px 0px 500px 500px;
+}
+.shapes__big{
+  width: 322px;
+  height: 471px;
+  position: relative;
+}
+.innerbg{
+  position: absolute;
+  left: 25px;
+  top: 142px;
+  background-color: #d9d9d9;
+  background-image: url('/assets/images/joyful-handsome-european-man-feels-glad-celebrates-winning-online-game-clenches-fist-with-triumph-holds-mobile-phone-wears-round-spectacles-checkered-shirt-isolated-white-background\ 1.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 276px;
+  height: 287.52px;
+  border-radius: 723.776px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  transform: rotate(-360deg);
+}
+
+// second container
+
+.line{
+  position: relative;
+}
+.line--main{
+  border: 10px solid $sky_blue_900;
+  transform: rotate(-90deg);
+}
+.line__main{
+  width: 474.03px;
+  position: absolute;
+  left: -250px;
+  top: -10px;
+}
+.line--text{
+  color: $sky_blue_900;
+}
+.line__text{
+  position: absolute;
+  left: -130px;
+  top: -225px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  height: 36px;
+  width: 300px;
+  transform: rotate(-90deg);
+}
+
+// third container
+
+.cushare{
+  display: flex;
+  flex-direction: column;
+}
+
+.cushare--headt, .cushare--parag{
+  color: $grey_1200;
+}
+.cushare__head{
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 55px;
+}
+.cushare__parag{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 41px;
+  padding-bottom: 43px;
+}
+.cushare--btn{
+  background: $royal_blue_700;
+  border-radius: 15px;
+  border: none;
+}
+.cushare__btn{
+  width: 184px;
+  height: 66px;
+}

@@ -10,6 +10,7 @@
 
 @import "./components/navbar";
 @import "./components/header";
+@import "./components/services";
 
 //Layout files
 
@@ -18,7 +19,7 @@
 //Pages files
 
 @import "./pages/contact", "./pages/home", "./pages/login", "./pages/register",
-  "./pages/services";
+  "./pages/services", "./pages/services";
 
 //Themes files
 
