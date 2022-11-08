@@ -6,54 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/reg.css" />
     <title>Digit Register Page</title>
-  </head>
-  <body>
-<div class="contact-form">
-  <h2 class="con-title">Create Account</h2>
-  <p class="conRegist-paragraph">
-      Enter your details to get start your track 
-      started with us.
+</head>
+<body>
 
-    <div className="form-container">
-      <div className="register-form-container">
-        <form className="register-form" onSubmit={formSubmit}>
-          <div className="form-group">
-            <label htmlFor="name">
-    <label for="name"><b>Name</b></label>
-    <input type="text" placeholder="Enter Name" name="name" id="name" required>
+<h3>Register</h3>
+<p> Enter your details to get start your track 
+  started with us.</p>
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+<div class="container">
+  <form action="form">
+    <label for="name"> Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
 
-    <label for="Phone Number"><b>Phone Number</b></label>
-    <input type="Phone Number" placeholder="Enter Phone Number" name="Phone Number" id="Phone Number" required>
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
 
-    <label for="address"><b>Address</b></label>
-    <input type="text" placeholder="Enter Address" name="address" id="address" required>
+    <label for="phone number">Phone Number</label>
+    <select id="phone number" name="phone number">
 
-    <label for="gender"><b>Gender</b></label>
-    <input type="gender" placeholder="Enter Gender" name="gender" id="gender" required>
+      <label for="address">Address</label>
+      <input type="text" id="address" name="address" placeholder="  Your address..">
 
-    <label for="age range"><b>Age Range</b></label>
-    <input type="age range" placeholder="Enter Age Range" name="age range" id="age range" required>
-
-    <label for="Track"><b>Track</b></label>
-    <input type="Track" placeholder="Track" name="Track" id="Track" required>
-
+      <label for="gender">Gender</label>                                                
+      <input type="gender" id="gender" name="gender" placeholder=" gender..">
+      
+      <label for="age range">Age Range</label>
+    <select id="age range" name="age range">
+  
     <label for="time dedication"><b>Time Dedication</b></label>
-    <input type="time dedication" placeholder="Time Dedication" name="time dedication" id="time dedication" required>
+    <input type="time dedication" id="time dedication" name="time dedication" placeholder="Time Dedication..">
 
     <label for="employment status"><b>Employment Status</b></label>
-    <input type="employment status" placeholder="Employment Status" name="employment status" id="employment status" required>
-    <hr>
+    <input type="employment status" id="employment status" name="employment status" placeholder="employment status..">
 
-    <div className="register-buttons">
-      <button type="submit" className="register-btn" to="/signin">Register</button>
-    </div>
+    <input type="submit" value="Submit">
   </form>
-  <div className="notice-account">
-    <p>
-      Already have an account?
-      <span><Link className="login-link" id="register-on-login" to="/login">Login</Link></span>
-    </p>
+  <p>
+    Already have an account?
+    <span><Link className="login-link" id="register-on-login" to="/login">Login</Link></span>
+  </p>
+</div>
 
+</body>
+</html>

@@ -1,36 +1,47 @@
-*body {
-padding: 12px 24px 12px 24px;
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
 }
 
 /* input fields */
-input[type=email], input[type=password]{
-  width: 40%;
-  padding: 30px;
-  margin: 5px 10px 22px 10px;
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
   background: #f1f1f1;
 }
 
-/* Add a background color when the inputs get focus */
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
 
-/* all buttons */
-button {
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* submit button */
+.registerbtn {
   background-color: blue;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 45%;
+  width: 59%;
 }
 
 .forgot {
-padding-left: 500px;
-padding-bottom: 10rem;
-margin-top: 10rem;
-}
+  padding-left: 500px;
+  padding-bottom: 10rem;
+  margin-top: 10rem;
+  }

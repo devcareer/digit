@@ -6,44 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/login.css" />
     <title>Digit Login</title>
-  </head>
-  <body>
- <div class="contact-form">
-    <h2 class="con-title">Login to your Account</h2>
-    <p class="conlogin-paragraph">
-        Welcome back!
-    <div className="form-container">
-      <div className="login-form-container">
-        <form className="login-form" onSubmit={formSubmit}>
-          <div className="form-group">
-            <label htmlFor="email">
-                      Email
-                      <br />
-                      <input type="email" name="email" id="signup-email" className="form-control" placeholder="Enter your email" required onChange={(e) => 
-                    </label>
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="password">
-                      Password
-                      <br />
-                      <input type="password" name="password" id="signup-password" className="form-control" placeholder="Enter your password" required onChange={(e) => 
-                    </label>
-                  </div>
-                  <a href="forgot password?" class="forgot">forgot password?</a>
-          <div className="signup-buttons">
-            <button type="submit" className="login-btn" to="/">Login</button>
-          </div>
-        </form>
+</head>
+<body>
 
-        <div className="notice-account">
-          <p>
-            Dont have an account?
-            <span><Link className="login-link" to="/register" id="login-on-signup">Register</Link></span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
+<form action="/action_page">
+  <div class="container">
+    <h1>Login to your account </h1>
+    <p>Welcome back!</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" id="password" required>
+
+    <hr>
+    <a href="forgot password?" class="forgot">forgot password?</a>
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+  
+  <div class="container signin">
+    <p> Dont have an account? <a href="#">Register here</a>.</p>
+  </div>
+</form>
+
 </body>
 </html>
-  
