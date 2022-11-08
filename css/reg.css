@@ -3,7 +3,7 @@
     }
     
     /* input fields */
-    input[type=], input[type=email]{
+    input[type=name], input[type=email]{
       width: 40%;
       padding: 30px;
       margin: 5px 10px 22px 10px;
@@ -29,4 +29,13 @@
       width: 11%;
     }
     
+    /* .contact-form { 
+      width: 40%;
+      padding: 30px;
+      margin: 5px 10px 22px 10px;
+      display:flex;
+      border: none;
+      background: #f1f1f1;
+
+    } */
     
