@@ -1,0 +1,166 @@
+
+    .services-wrap{
+        width:90%;
+        margin: 5% auto; 
+        display: flex; 
+        &__h3{
+            color:#04647d;
+           writing-mode:vertical-lr;
+           font-size: 30px;
+        
+        } 
+       }
+   
+   .services{
+       border: none;
+       border-left: 10px solid #04647d;
+       border-radius: 5px;
+       padding-left: 20px;
+   
+       &__h3{
+           padding-bottom: 30px;
+           width: 100%;
+           @include for-phone-only{
+            width: 100%;
+            font-size: 18px;
+           }
+           @include for-tablet-portrait-up{
+          
+            font-size: 35px;
+            width: 70%;
+           }
+           @include for-desktop-up{ 
+            font-size: 34px;
+           width: 80%;
+         }
+         @include for-big-desktop-up{
+            width: 50%;
+            font-size: 40px;
+         }
+           }
+       
+       &__p{
+            padding-bottom: 30px;
+        @include for-phone-only{
+            font-size: 15px;
+            width: 100%;
+        } 
+       @include for-tablet-portrait-up{
+            font-size: 18px;
+            width: 90%;
+           }
+
+           @include for-tablet-landscape-up{
+            font-size: 20px;
+            width: 90%;
+           }  
+        @include for-desktop-up{
+            font-size: 22px;
+            width: 90%;
+        }
+        @include for-big-desktop-up{
+            font-size: 24px;
+            width: 75%;
+        }
+       }
+       &__boxes{
+            display: flex;
+            align-items: left;
+            border-radius: 10px;
+            flex-direction:row;
+            justify-content: space-between;
+            @include for-phone-only{
+              flex-direction: column;
+            }
+            @include for-tablet-portrait-up{
+                flex-direction: column; 
+            }
+            @include for-tablet-landscape-up{
+                flex-wrap: wrap; 
+               }
+            @include for-desktop-up{
+                flex-wrap: wrap; 
+            }
+            @include for-big-desktop-up{
+                flex-wrap: nowrap;
+               
+            }
+       }
+       &__design{
+              background-color: $sky_blue_50;
+              width: 90%;
+              padding: 30px;
+              border-radius: 10px;
+              margin-bottom: 5%;
+          
+           
+              @include for-tablet-landscape-up{
+                width: 45%; 
+               }
+               @include for-desktop-up{
+                width: 45%;
+                // height: 500px;
+               }
+               @include for-big-desktop-up{
+                width: 30%;
+                // height: 480px;
+               }
+           &_image{
+                width: 150px;
+                height: 150px;
+       }   
+       &_text h3{
+        font-size: 24px;
+        @include for-phone-only{
+            font-size: 18px;
+        }
+          }
+          &_text p{
+           font-size: 20px;
+           @include for-phone-only{
+            font-size: 15px;
+           }
+          }
+       }
+       &__design2{
+           background-color: $grey_100;
+           width: 90%;
+           padding: 30px;
+           border-radius: 10px;
+           margin-bottom: 5%;
+
+           @include for-tablet-landscape-up{
+            width: 45%; 
+           }
+           @include for-desktop-up{
+            width: 45%;
+            // height: 500px;
+           }
+           @include for-big-desktop-up{
+            width: 30%;
+            // height: 480px;
+           }
+       }
+       &__design3{
+        background-color: $grey_200;
+        width: 90%;
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 5%;
+
+        @include for-tablet-landscape-up{
+         width: 45%; 
+        }
+        @include for-desktop-up{
+         width: 45%;
+         // height: 500px;
+        }
+        @include for-big-desktop-up{
+         width: 30%;
+         // height: 480px;
+        }
+    }
+      
+   
+    }
+
