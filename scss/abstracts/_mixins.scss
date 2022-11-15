@@ -18,7 +18,6 @@
 @mixin for-desktop-up {
   @media (min-width: 1025px) and (max-width: 1200px) {
     @content;
-    
   }
 }
 @mixin for-big-desktop-up {

@@ -128,3 +128,87 @@
   width: 184px;
   height: 66px;
 }
+
+ @media (min-width: 1024px) and (max-width: 1200px) {
+  .rafter{
+    gap: 70px;
+  }
+   .shapes__small {
+     width: 250px;
+     height: 320px;
+   }
+   .innersm{
+    width: 190.16px;
+    height: 200px;
+   }
+    .shapes__big {
+      width: 280px;
+      height: 410px;
+     }
+     .innerbg{
+      width: 236px;
+      height: 237.52px;
+     }
+      .line__main {
+        left: -265px;
+        top: 20px;
+      }
+      .line__text{
+        left: -145px;
+        top: -200px;
+      }
+      .cushare__head {
+        font-size: 34px;
+      }
+      .cushare__parag{
+        font-size: 20px;
+      }
+      .cushare__btn {
+        width: 150px;
+        height: 56px;
+      }
+ }
+
+ @media (min-width: 768px) and (max-width: 978px) {
+   .rafter {
+    display: flex;
+    flex-direction: column;
+   }
+   .shapes{
+    position: relative;
+   }
+   .shapes__small {
+     width: 250px;
+     height: 320px;
+   }
+   .innersm {
+     width: 190.16px;
+     height: 200px;
+   }
+   .shapes__big {
+     width: 280px;
+     height: 410px;
+   }
+   .innerbg {
+     width: 236px;
+     height: 237.52px;
+   }
+   .line__main {
+     left: -265px;
+     top: 20px;
+   }
+   .line__text {
+     left: -145px;
+     top: -200px;
+   }
+   .cushare__head {
+     font-size: 34px;
+   }
+   .cushare__parag {
+     font-size: 20px;
+   }
+   .cushare__btn {
+     width: 150px;
+     height: 56px;
+   }
+ }
