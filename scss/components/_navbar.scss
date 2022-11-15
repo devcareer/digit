@@ -1,0 +1,140 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0 1.8rem;
+  position: relative;
+  max-width: 93%;
+  &__logo-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8rem;
+    margin-right: auto;
+    a {
+      text-decoration: none;
+      font-size: 2rem;
+      font-weight: 700;
+      color: $royal_blue_700;
+    }
+  }
+  &__link-container {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    @include custom-query(880px, 995px) {
+      gap: 4rem;
+    }
+    @include custom-query(769px, 910px) {
+      gap: 3rem;
+    }
+    @include custom-query(300px, 768px) {
+      position: absolute;
+      background-color: $sky_blue_200;
+      top: 80%;
+      left: 25%;
+      height: 80vh;
+      width: 80vw;
+      flex-direction: column;
+      gap: 3rem;
+      opacity: 0;
+      pointer-events: none;
+      visibility: hidden;
+      transition: all 0.5s;
+      transform: translateX(100%);
+      z-index: 3;
+    }
+    &__links {
+      list-style: none;
+      display: flex;
+      gap: 3rem;
+      padding-inline-start: 0;
+      @include custom-query(880px, 995px) {
+        gap: 2rem;
+      }
+      @include custom-query(769px, 910px) {
+        gap: 1.5rem;
+      }
+      @include custom-query(300px, 768px) {
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+      .nav-bar__link-container__hover {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        a {
+          text-decoration: none;
+          font-weight: 500;
+          font-size: 1.5rem;
+          color: $grey_1200;
+
+          &:hover {
+            color: $royal_blue_700;
+          }
+
+          @include custom-query(769px, 910px) {
+            font-size: 1.2rem;
+          }
+        }
+        .active-link {
+          color: $royal_blue_700;
+        }
+        .blue-dot {
+          opacity: 0;
+        }
+        .active-dot {
+          opacity: 1;
+        }
+      }
+    }
+    button {
+      height: fit-content;
+      font-weight: 600;
+      font-size: 1.2rem;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border: none;
+      background: none;
+      background-color: $royal_blue_700;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+  }
+  &__mobile-nav-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+    &__open-btn {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      div {
+        background-color: $black;
+        width: 1.5rem;
+        height: 2px;
+      }
+    }
+    &__close-btn {
+      font-size: 2rem;
+      display: none;
+    }
+    @include custom-query(300px, 768px) {
+      display: block;
+    }
+  }
+}
+.nav-open {
+  .nav-bar__link-container {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0%);
+  }
+  .nav-bar__mobile-nav-btn__close-btn {
+    display: block;
+  }
+  .nav-bar__mobile-nav-btn__open-btn {
+    display: none;
+  }
+}

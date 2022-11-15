@@ -12,9 +12,15 @@
 @import "./components/header";
 @import "./components/services";
 
+@import "./components/card-grid.scss";
+@import "./components/header";
+@import "./components/blog";
+@import "./components/carousel";
+
+
 //Layout files
 
-@import "./layout/footer", "./layout/header";
+@import "./layout/footer", "./layout/header", "./layout/contact-header";
 
 //Pages files
 
