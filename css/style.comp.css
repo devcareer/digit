@@ -836,6 +836,8 @@ select {
           .header__aside__container--2 img {
             margin-top: 23rem;
             width: 80%; } }
+  .header .hide {
+    display: block; }
   @media (min-width: 300px) and (max-width: 480px) {
     .header .hide {
       display: none; } }
@@ -848,15 +850,24 @@ select {
 
 .btn {
   margin-top: 2rem;
-  padding: 15px 25px; }
+  padding: 15px 25px;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 15px, 25px, 15px, 25px;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #0d41e1; }
   @media (min-width: 300px) and (max-width: 480px) {
     .btn {
       margin-top: 1rem;
-      padding: 7px 12px; } }
+      padding: 9px 18px;
+      font-size: 16px; } }
   @media (min-width: 481px) and (max-width: 768px) {
     .btn {
       margin-top: 1rem;
-      padding: 7px 12px; } }
+      padding: 10px 20px;
+      font-size: 20px; } }
 
 .blog {
   background-color: #ffffff; }
