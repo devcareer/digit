@@ -217,6 +217,9 @@
       }
     }
   }
+  .hide{
+    display: block;
+  }
   @include for-phone-only {
     .hide {
       display: none;
@@ -232,16 +235,26 @@
       display: block;
     }
   }
+  
 }
 .btn {
   margin-top: 2rem;
   padding: 15px 25px;
+  color:#fff;
+  border: none;
+  border-radius: 15px;
+  padding: 15px, 25px, 15px, 25px;
+  font-size: 24px;
+  font-weight: 700;
+  background-color:$royal-blue-700;
   @include for-phone-only {
     margin-top: 1rem;
-    padding: 7px 12px;
+    padding: 9px 18px;
+    font-size: 16px;
   }
   @include for-tablet-portrait-up {
     margin-top: 1rem;
-    padding: 7px 12px;
+    padding: 10px 20px;
+    font-size: 20px;
   }
 }
