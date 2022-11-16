@@ -974,8 +974,9 @@ select {
   gap: 10px; }
 
 .team h3 {
-  writing-mode: vertical-lr;
-  color: #044058; }
+  writing-mode: vertical-rl;
+  color: #044058;
+  transform: rotate(180deg); }
 
 .main {
   padding-left: 40px;

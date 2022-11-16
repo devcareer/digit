@@ -17,8 +17,9 @@
         gap: 10px;
     }
 .team h3 {
-  writing-mode: vertical-lr;
+  writing-mode: vertical-rl;
   color:rgb(4, 64, 88);
+  transform: rotate(180deg);
 }
     .main{
         padding-left: 40px;
