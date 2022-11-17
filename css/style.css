@@ -775,6 +775,10 @@ select {
       width: 20rem;
       height: 27.8rem;
       border-radius: 0rem 0rem 31.25rem 31.25rem; }
+      @media (min-width: 300px) and (max-width: 480px) {
+        .header__aside__container--1 {
+          width: 3rem;
+          height: 10rem; } }
       @media (min-width: 481px) and (max-width: 768px) {
         .header__aside__container--1 {
           width: 6rem;
@@ -787,6 +791,14 @@ select {
           width: 60%; } }
       .header__aside__container--1 img {
         margin-top: 10.6rem; }
+        @media (min-width: 300px) and (max-width: 480px) {
+          .header__aside__container--1 img {
+            margin-top: 6.1rem;
+            width: 80%; } }
+        @media (min-width: 481px) and (max-width: 768px) {
+          .header__aside__container--1 img {
+            margin-top: 4.3rem;
+            width: 80%; } }
         @media (min-width: 481px) and (max-width: 768px) {
           .header__aside__container--1 img {
             margin-top: 4.3rem;
@@ -848,7 +860,11 @@ select {
 
 .btn {
   margin-top: 2rem;
-  padding: 15px 25px; }
+  padding: 15px 25px;
+  background-color: #0d41e1;
+  border-radius: 10px;
+  color: #fff;
+  border: none; }
   @media (min-width: 300px) and (max-width: 480px) {
     .btn {
       margin-top: 1rem;

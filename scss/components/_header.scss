@@ -148,6 +148,10 @@
         width: 20rem;
         height: 27.8rem;
         border-radius: 0rem 0rem 31.25rem 31.25rem;
+        @include for-phone-only{
+          width: 3rem;
+          height: 10rem;
+        }
         @include for-tablet-portrait-up {
           width: 6rem;
           height: 10rem;
@@ -161,6 +165,14 @@
 
         img {
           margin-top: 10.6rem;
+          @include for-phone-only {
+            margin-top: 6.1rem;
+            width: 80%;
+          }
+          @include for-tablet-portrait-up {
+            margin-top: 4.3rem;
+            width: 80%;
+          }
           @include for-tablet-portrait-up {
             margin-top: 4.3rem;
             width: 80%;
@@ -236,6 +248,10 @@
 .btn {
   margin-top: 2rem;
   padding: 15px 25px;
+  background-color:$royal_blue_700;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
   @include for-phone-only {
     margin-top: 1rem;
     padding: 7px 12px;
