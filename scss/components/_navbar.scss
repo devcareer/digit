@@ -20,11 +20,11 @@
     display: flex;
     align-items: center;
     gap: 6rem;
-    @include custom-query(880px, 995px) {
-      gap: 4rem;
-    }
-    @include custom-query(769px, 910px) {
+    @include custom-query(801px, 1080px) {
       gap: 3rem;
+    }
+    @include custom-query(769px, 800px) {
+      gap: 2rem;
     }
     @include custom-query(300px, 768px) {
       position: absolute;

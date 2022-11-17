@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  @include for-phone-only {
+  @include custom-query(300px, 1000px) {
     .hide {
       display: none;
     }
     padding: 1rem;
-  }
-  @include for-tablet-portrait-up {
-    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   @include for-tablet-landscape-up {
     padding: 2rem;
@@ -79,16 +79,17 @@
       font-weight: 800;
       margin-top: 5.8rem;
       @include for-phone-only {
-        font-size: 2rem;
+        margin-top: .5rem;
+      }
+
+      @include custom-query(481px, 1000px) {
+        margin-top: 2rem;
       }
     }
     &__para {
       font-size: 1.5rem;
       font-weight: 500;
       margin-top: 1.6rem;
-      @include for-phone-only {
-        font-size: 0.9rem;
-      }
     }
     &__logo__container {
       display: flex;
@@ -97,6 +98,9 @@
       margin-top: 2rem;
       align-items: center;
       padding: 0;
+      @include custom-query(300px, 1000px) {
+        justify-content: center;
+      }
     }
     &__logo {
       fill: stroke;

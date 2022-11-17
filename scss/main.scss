@@ -9,22 +9,13 @@
 //Components files
 
 @import "./components/navbar";
-@import "./components/header";
-@import "./components/blog";
 
 //Layout files
 
-@import "./layout/footer", "./layout/header", "./layout/contact-header";
+@import "./layout/footer", "./layout/contact-header";
 
 //Pages files
 
-@import "./pages/contact", "./pages/home", "./pages/login", "./pages/register",
-  "./pages/services";
+@import "./pages/contact";
 
-//Themes files
 
-@import "./themes/theme";
-
-//Vendors files
-
-@import "./vendors/carousel";
