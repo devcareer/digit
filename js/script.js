@@ -35,3 +35,26 @@ window.addEventListener(`load`, (e) => {
     navEl.classList.toggle(`nav-open`);
   });
 });
+
+
+// carousel functionalty
+window.addEventListener(`load`, (e) => {
+  console.log(54);
+  console.log(e);
+  document
+  .querySelector(".next-btn")
+  .addEventListener(
+    "click", () => (document.getElementById("second").style.display = "flex", document.getElementById("first").style.display = "none" )
+  );
+
+  document
+  .querySelector(".prev-btn")
+  .addEventListener(
+    "click",
+    () => (document.getElementById("first").style.display = "flex", document.getElementById("second").style.display = "none" )
+);
+
+
+})
+  
+    
