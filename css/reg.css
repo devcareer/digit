@@ -33,26 +33,24 @@ div.container {
   padding: 20px;
 }
 
-.Registersignup {
-  border: 2px red solid;
+.Registersignup{
+  border: 2px red solid; 
 }
 
-.Reg__img {
+ .Reg__img{
   background: url("/assets/images/wes-hicks-4-EeTnaC1S4-unsplash\ 1.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 795px;
   height: 983px;
-  position: relative;
-}
+  position: relative; }
 
 .Reg__logo-box {
   display: flex;
   margin-left: 6.2em;
   gap: 1em;
   padding-top: 2em;
-  width: 70px;
-}
+  width: 70px; }
 
 .lRigister__transparen {
   width: 602px;
@@ -63,8 +61,7 @@ div.container {
   opacity: 0.4;
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.08);
   border-radius: 12px;
-  filter: blur(0.5px);
-}
+  filter: blur(0.5px); }
 
 .Rigister__title {
   width: 88px;
@@ -73,14 +70,10 @@ div.container {
   margin-top: 1em;
   font-weight: 700;
   font-size: 2em;
-  line-height: 40px;
-}
-
-@media (min-width: 481px) and (max-width: 700px) {
-  .Rigister__title {
-    width: 50px;
-  }
-}
+  line-height: 40px; }
+  @media (min-width: 481px) and (max-width: 700px) {
+    .Rigister__title {
+      width: 50px; } }
 
 .Rigister__desc {
   margin-left: 2em;
@@ -88,66 +81,65 @@ div.container {
   width: 528px;
   font-weight: 600;
   font-size: 20px;
-  line-height: 30px;
-}
+  line-height: 30px; }
 
-.Reg__container {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-  background: #F5F5F5;
-}
+  .Reg__container{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    background: #F5F5F5;
+  }
 
-.form-container {
-  display: flex;
-  flex-direction: column;
-}
+  .form-container{
+    display: flex;
+    flex-direction: column;
+  }
 
-.time-e {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+  .time-e{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+  }
 
-.employ {
-  display: flex;
-  gap: 20px;
-}
-
-.time-dedication {
+  .employ{
   display: flex;
   gap: 20px;
-}
+  }
 
-.Rigister__transparent {
-  /* background: white;
+  .time-dedication{
+    display: flex;
+    gap: 20px;
+  }
+
+  .Rigister__transparent{
+    /* background: white;
     opacity: 0.4;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.08);
     filter: blur(1px);
-    border-radius: 12px;
-    margin-top: auto; */
+    border-radius: 12px; */
+
     position: absolute;
     width: 602px;
     height: 192px;
-    left: 77px;
-    top: 637px;
-    background: rgb(255, 255, 255);
+    left: 102px;
+    top: 647px;
+    background: #FFFFFF;
     opacity: 0.4;
-    box-shadow: rgba(0, 0, 0, 0.08) 2px 2px 15px;
+    box-shadow: 2px 2px 15px rgb(0 0 0 / 8%);
     filter: blur(1px);
     border-radius: 12px;
-}
+  }
 
-.Rigister__desc {
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-
-  top: 50%;
-  /* or 150% */
-
-
-  color: black;
-}
+  .Rigister__desc{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    
+    top: 50%;
+    /* or 150% */
+    
+    
+    color: black;
+  }
