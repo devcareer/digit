@@ -458,7 +458,7 @@ select {
           opacity: 0; }
         .nav-bar__link-container__links .nav-bar__link-container__hover .active-dot {
           opacity: 1; }
-    .nav-bar__link-container button {
+    .nav-bar__link-container button .nav-btn {
       height: fit-content;
       font-weight: 600;
       font-size: 1.2rem;
