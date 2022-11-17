@@ -2,8 +2,8 @@ body {
   font-family: Arial;
 }
 
-input[type=text], select {
-  width: 100%;
+input[type=text] {
+  width: 50%;
   padding: 12px 20px;
   margin: 8px 0;
   display: block;
@@ -24,7 +24,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: blue;
 }
 
 div.container {
@@ -33,3 +33,121 @@ div.container {
   padding: 20px;
 }
 
+.Registersignup {
+  border: 2px red solid;
+}
+
+.Reg__img {
+  background: url("/assets/images/wes-hicks-4-EeTnaC1S4-unsplash\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 795px;
+  height: 983px;
+  position: relative;
+}
+
+.Reg__logo-box {
+  display: flex;
+  margin-left: 6.2em;
+  gap: 1em;
+  padding-top: 2em;
+  width: 70px;
+}
+
+.lRigister__transparen {
+  width: 602px;
+  height: 192px;
+  position: absolute;
+  left: 6.2em;
+  background: #FFFFFF;
+  opacity: 0.4;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  filter: blur(0.5px);
+}
+
+.Rigister__title {
+  width: 88px;
+  height: 40px;
+  margin-left: 1.2em;
+  margin-top: 1em;
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 40px;
+}
+
+@media (min-width: 481px) and (max-width: 700px) {
+  .Rigister__title {
+    width: 50px;
+  }
+}
+
+.Rigister__desc {
+  margin-left: 2em;
+  margin-top: 10px;
+  width: 528px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.Reg__container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  background: #F5F5F5;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.time-e {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.employ {
+  display: flex;
+  gap: 20px;
+}
+
+.time-dedication {
+  display: flex;
+  gap: 20px;
+}
+
+.Rigister__transparent {
+  /* background: white;
+    opacity: 0.4;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.08);
+    filter: blur(1px);
+    border-radius: 12px;
+    margin-top: auto; */
+    position: absolute;
+    width: 602px;
+    height: 192px;
+    left: 77px;
+    top: 637px;
+    background: rgb(255, 255, 255);
+    opacity: 0.4;
+    box-shadow: rgba(0, 0, 0, 0.08) 2px 2px 15px;
+    filter: blur(1px);
+    border-radius: 12px;
+}
+
+.Rigister__desc {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+
+  top: 50%;
+  /* or 150% */
+
+
+  color: black;
+}
