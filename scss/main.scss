@@ -9,6 +9,8 @@
 //Components files
 
 @import "./components/navbar";
+@import "./components/header";
+@import "./components/services";
 
 @import "./components/card-grid.scss";
 @import "./components/header";
@@ -23,7 +25,7 @@
 //Pages files
 
 @import "./pages/contact", "./pages/home", "./pages/login", "./pages/register",
-  "./pages/services";
+  "./pages/services", "./pages/services";
 
 //Themes files
 
