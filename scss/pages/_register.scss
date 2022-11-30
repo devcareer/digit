@@ -1,0 +1,160 @@
+.reg{
+    &__container{
+        display: flex;
+        height: 983px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    &__img-box{
+        background: url('/assets/images/wes-hicks-4-EeTnaC1S4-unsplash\ 1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 983px;
+        position: relative;
+        @include custom-query(300px,1300px){
+            display: none;
+        }
+    }
+    &__logo-box{
+        display: flex;
+        margin-left: 6.2em;
+        gap:1em;
+        padding-top: 2em;
+        width:70px;
+    }
+    &__transparent{
+        width:602px;
+        height:192px;
+        position: absolute;
+        top:40.625em;
+        left:6.2em;
+        background: rgb(0,0,0);
+        background: rgba(250,250,250,0.4);
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        filter: blur(0.5px);
+        @include custom-query(1301px,1400px){
+            left:3em;
+            width:570px;
+        }
+    }
+    &__title{
+        width: 88px;
+        height: 40px;
+        margin-left: 1.2em;
+        margin-top: 1em;
+        font-weight: 700;
+        font-size: 2em;
+        line-height: 40px;
+        color:#F5F5F5;
+    }
+    &__desc{
+        margin-left:2em;
+        margin-top: 10px;
+        width:528px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color:#F5F5F5;
+    }
+    &__form-container{
+        padding:100px;
+        @include custom-query(300px,1300px){
+            margin: 0 auto;
+        }
+    }
+    &__form-head{
+        width:330px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        margin-top:-200px;
+        @include custom-query(300px,1300px){
+           margin-top: 50px;
+        }
+        
+    }
+    &__form-desc{
+        width:475px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        margin-top:1em;
+    }
+    &__form{
+        width: 450px;
+        height: 382px;
+        margin-top: 50px;
+        }
+    &__label{
+        display: block;
+        margin: 0.3rem 0rem;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 18px;
+        width:53px;
+        color:$grey_1200;
+        padding-bottom: 1em;
+    }
+    &__label:nth-of-type(3){
+        width:142px;
+    }
+    &__label--active{
+        width:187px;
+    }
+    &__input{
+        width:475px;
+        height:50px;
+        background-color:#F5F5F5;
+        border: none;
+        border-radius: 8px;
+        padding:16px;
+        outline: none;
+        margin-top: 0.5em;
+    }
+    &__input--active{
+        width:205px;
+    }
+    &__input-flex{
+        display:flex;
+        align-items: center;
+        gap:82px;
+    }
+    &__forget-pass{
+        float:right;
+    }
+    &__forget{
+        text-align: right;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 18px;
+        text-decoration: none;
+        color: $royal_blue_700;
+        margin-top: 50px;
+    }
+    &__submit{
+        @extend .reg__input;
+        width:475px;
+        height:50px;
+        padding:4px 16px;
+        color:#FFFFFF;
+        background-color:$royal_blue_700;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 36px;
+    }
+    &__submit:hover{
+        background-color:#3464f5;
+        transform:translateY(-2px);
+        transition: all 2s ease;
+    }
+    &__btn-desc{
+        text-align:center;
+        width:475px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 36px;
+        margin-top: 30px;
+    }
+}
