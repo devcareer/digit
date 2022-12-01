@@ -1515,7 +1515,7 @@ select {
   background: url("/assets/images/wes-hicks-4-EeTnaC1S4-unsplash 1.png");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 795px;
   height: 983px;
   position: relative; }
   @media (min-width: 300px) and (max-width: 1300px) {
@@ -1542,8 +1542,7 @@ select {
   filter: blur(0.5px); }
   @media (min-width: 1301px) and (max-width: 1400px) {
     .reg__transparent {
-      left: 3em;
-      width: 570px; } }
+      left: 4em; } }
 
 .reg__title {
   width: 88px;
@@ -1554,6 +1553,9 @@ select {
   font-size: 2em;
   line-height: 40px;
   color: #F5F5F5; }
+  @media (min-width: 481px) and (max-width: 700px) {
+    .reg__title {
+      width: 50px; } }
 
 .reg__desc {
   margin-left: 2em;
@@ -1565,32 +1567,47 @@ select {
   color: #F5F5F5; }
 
 .reg__form-container {
-  padding: 100px; }
+  margin-left: 130px;
+  height: 983px;
+  margin: 0 auto; }
+  @media (min-width: 1301px) and (max-width: 1400px) {
+    .reg__form-container {
+      margin-left: 100px; } }
   @media (min-width: 300px) and (max-width: 1300px) {
     .reg__form-container {
-      margin: 0 auto; } }
+      height: 100vh;
+      padding: 15px; } }
 
 .reg__form-head {
   width: 330px;
   font-weight: 700;
   font-size: 30px;
   line-height: 40px;
-  margin-top: -200px; }
+  padding-top: 2em; }
   @media (min-width: 300px) and (max-width: 1300px) {
     .reg__form-head {
-      margin-top: 50px; } }
+      margin-top: -180px; } }
 
 .reg__form-desc {
   width: 475px;
   font-weight: 500;
   font-size: 24px;
-  line-height: 36px;
-  margin-top: 1em; }
+  line-height: 36px; }
 
 .reg__form {
-  width: 450px;
-  height: 382px;
-  margin-top: 50px; }
+  width: 475px;
+  height: 750px; }
+  @media (min-width: 1301px) and (max-width: 1440px) {
+    .reg__form {
+      width: 400px; } }
+  @media (min-width: 1301px) and (max-width: 9999px) {
+    .reg__form {
+      margin-top: 50px;
+      overflow-y: scroll;
+      overflow-x: hidden; } }
+
+.reg__form::-webkit-scrollbar {
+  display: none; }
 
 .reg__label {
   display: block;
@@ -1617,6 +1634,9 @@ select {
   padding: 16px;
   outline: none;
   margin-top: 0.5em; }
+  @media (min-width: 1301px) and (max-width: 1440px) {
+    .reg__input, .reg__submit {
+      width: 400px; } }
 
 .reg__input--active {
   width: 205px; }
@@ -1660,3 +1680,6 @@ select {
   font-size: 20px;
   line-height: 36px;
   margin-top: 30px; }
+  @media (min-width: 1301px) and (max-width: 1440px) {
+    .reg__btn-desc {
+      width: 400px; } }

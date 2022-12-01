@@ -4,17 +4,18 @@
         height: 983px;
         margin: 0 auto;
         align-items: center;
+        //background-color: red;
     }
     &__img-box{
         background: url('/assets/images/wes-hicks-4-EeTnaC1S4-unsplash\ 1.png');
         background-size: cover;
         background-repeat: no-repeat;
-        width: 100%;
+        width: 795px;
         height: 983px;
         position: relative;
         @include custom-query(300px,1300px){
             display: none;
-        }
+       }
     }
     &__logo-box{
         display: flex;
@@ -35,8 +36,8 @@
         border-radius: 12px;
         filter: blur(0.5px);
         @include custom-query(1301px,1400px){
-            left:3em;
-            width:570px;
+            left:4em;
+            //width:570px;
         }
     }
     &__title{
@@ -48,6 +49,9 @@
         font-size: 2em;
         line-height: 40px;
         color:#F5F5F5;
+        @include custom-query(481px,700px){
+            width:50px;
+        }
     }
     &__desc{
         margin-left:2em;
@@ -59,9 +63,16 @@
         color:#F5F5F5;
     }
     &__form-container{
-        padding:100px;
+        margin-left:130px;
+        height:983px;
+        margin:0 auto;
+        @include custom-query(1301px,1400px){
+            margin-left: 100px;
+        }
+        //background-color: red;
         @include custom-query(300px,1300px){
-            margin: 0 auto;
+            height: 100vh;
+            padding:15px;
         }
     }
     &__form-head{
@@ -69,9 +80,9 @@
         font-weight: 700;
         font-size: 30px;
         line-height: 40px;
-        margin-top:-200px;
+        padding-top: 2em;
         @include custom-query(300px,1300px){
-           margin-top: 50px;
+           margin-top:-180px;
         }
         
     }
@@ -80,13 +91,23 @@
         font-weight: 500;
         font-size: 24px;
         line-height: 36px;
-        margin-top:1em;
+        //margin-top:1em;
     }
     &__form{
-        width: 450px;
-        height: 382px;
-        margin-top: 50px;
+        width: 475px;
+        height: 750px;
+        @include custom-query(1301px,1440px){
+            width:400px;
         }
+        @include custom-query(1301px,9999px){
+            margin-top: 50px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+        }
+    &__form::-webkit-scrollbar{
+        display: none;
+    }
     &__label{
         display: block;
         margin: 0.3rem 0rem;
@@ -112,6 +133,9 @@
         padding:16px;
         outline: none;
         margin-top: 0.5em;
+        @include custom-query(1301px,1440px){
+            width:400px;
+        }
     }
     &__input--active{
         width:205px;
@@ -156,5 +180,8 @@
         font-size: 20px;
         line-height: 36px;
         margin-top: 30px;
+        @include custom-query(1301px,1440px){
+            width:400px;
+        }
     }
 }
