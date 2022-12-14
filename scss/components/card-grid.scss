@@ -1,15 +1,29 @@
 
     .services-wrap{
-        width:90%;
+        width:1200px;
+        max-width: 100%;
         margin: 5% auto; 
-        display: flex; 
+        display: flex;
+        @include for-phone-only{
+           padding: 1rem;
+           } 
+           @include for-tablet-portrait-up{
+          
+            padding: 1rem;
+           }
+           @include for-tablet-landscape-up{
+            padding: 1rem;
+           }
         &__h3{
             color:#04647d ;
            writing-mode:vertical-lr;
            font-size: 30px;
         transform: rotate(180deg);
          align-self: flex-start;
-
+         @include for-phone-only{
+            font-size: 1.1rem;
+            
+           }
         
         } 
        }
@@ -23,22 +37,25 @@
        &__h3{
            padding-bottom: 30px;
            width: 100%;
+           font-weight: 800;
            
            @include for-phone-only{
-            width: 100%;
-            font-size: 18px;
+            font-size: 1.5rem;
+            max-width: 97%;
+           
            }
            @include for-tablet-portrait-up{
           
-            font-size: 35px;
+            // font-size: 35px;
+            font-size: 1.7rem;
             width: 70%;
            }
            @include for-desktop-up{ 
-            font-size: 34px;
+            font-size: 1.8rem;
            width: 80%;
          }
          @include for-big-desktop-up{
-            width: 50%;
+            width: 55%;
             font-size: 40px;
          }
            }
@@ -72,9 +89,11 @@
             align-items: left;
             border-radius: 10px;
             flex-direction:row;
-            justify-content: space-between;
+            justify-content: center;
+            gap:2rem;
             @include for-phone-only{
               flex-direction: column;
+              gap: 1rem;
             }
             @include for-tablet-portrait-up{
                 flex-direction: column; 
