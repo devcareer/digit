@@ -1,4 +1,4 @@
-# Aurbase Vetting Dashboard
+# Digit
 
 ## Figma URL: [link](https://www.figma.com/file/oxz27W82DmlDFy9MvdF4IP/Digit?node-id=0%3A1)
 
