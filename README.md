@@ -1,25 +1,24 @@
 # Digit Website
 
-## Figma URL: [link](https://www.figma.com/file/oxz27W82DmlDFy9MvdF4IP/Digit?node-id=0%3A1)
+## Figma URL: [link](https://www.figma.com/file/2sbUiz4FFOjC16EAtd0b96/Aurbase-Vetting-dashboard?t=MjIUmtpFInFp9bmI-0)
 
 ## Live URL: [link](#)
 
 > **Technology tools:**
 >
-> - HTML
-> - CSS
-> - Javascript
-> - SASS
+> - React
+> - Redux
+> - Tailwind CSS
+
 
 > #### To run the app on your local computer
 >
 > - yarn install or npm run install
-> - yarn watch-sass or npm run watch-sass
-> - open live server in your vscode
+> - npm run dev
 
 > #### To run a production build
 >
-> - yarn build-css or npm run build-css
+> - yarn build or npm run build
 
 > # Git Branch Naming Conventions
 >
@@ -32,15 +31,3 @@
 >
 > #### Example: feature/navbar or feature/footer or bugfix/images-fluid
 
-> # Git Commit Message Pattern
-
-> ### Commit Categories:
->
-> - _feat_ is for adding a new feature
-> - _fix_ is for fixing a bug
-> - _refactor_ is for changing code for peformance or convenience purpose (e.g. readibility)
-> - _chore_ is for everything else (writing documentation, formatting, adding tests, cleaning useless code etc.)
-
-> #### Example: git commit -m 'feat: add new button component; add new button components to templates'
->
-> #### Example: git commit -m 'refactor: rewrite button component in TypeScript'
