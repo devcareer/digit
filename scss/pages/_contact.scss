@@ -1,0 +1,203 @@
+.form {
+
+    &__wrapper {
+        width: 1512px;
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    &__container {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 0.5rem;
+        padding-right: 2rem;
+        display: flex;
+        background-color: #ffffff;
+        position: relative;
+
+        @include custom-query(768px, 1023px) {
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+            padding-left: 3.5rem;
+            padding-right: 4.5rem;
+            flex: 1;
+        }
+
+        @include custom-query(1024px, 9999px) {
+            padding-top: 5.75rem;
+            padding-bottom: 9.687rem;
+            padding-left: 7.125rem;
+            padding-right: 24.37rem;
+            flex: 1;
+        }
+    }
+
+    &__rotate {
+        position: relative;
+        top: 55px;
+        width: 35px;
+
+        @include custom-query(768px, 9999px) {
+            top: 75px;
+            width: 65px;
+        }
+    }
+
+    &__message {
+        font-family: 'Mulish';
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 25px;
+        color: $sky_blue_900;
+        transform: rotate(-90deg);
+
+        @include custom-query(768px, 9999px) {
+            font-size: 1.5rem;
+            line-height: 36px;
+        }
+    }
+
+    &__divider {
+        width: 0px;
+        height: 100%;
+        border: 5px solid $sky_blue_900;
+        border-radius: 10px;
+        background-color: $sky_blue_900;
+        box-sizing: inherit;
+
+        @include custom-query(768px, 9999px) {
+            border: 10px solid $sky_blue_900;
+        }
+    }
+
+    &__content {
+        padding-left: 1rem;
+
+        @include custom-query(768px, 9999px) {
+            padding-left: 3.72rem;
+        }
+    }
+
+    &__head {
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 30px;
+        color: $grey_1200;
+        padding-bottom: 1rem;
+
+        @include custom-query(768px, 9999px) {
+            font-size: 44px;
+            line-height: 55px;
+            padding-bottom: 1.5rem;
+        }
+    }
+
+    &__description {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        max-width: 25ch;
+        color: $grey_1200;
+        padding-bottom: 1.5rem;
+
+        @include custom-query(768px, 9999px) {
+            font-size: 24px;
+            line-height: 36px;
+            padding-bottom: 2.75rem;
+            max-width: 100%;
+        }
+    }
+
+    &__label {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 36px;
+        color: $grey_1200;
+        padding-bottom: 4px;
+
+        @include custom-query(768px, 9999px) {
+            font-size: 24px;
+        }
+    }
+
+    &__input {
+        width: 100%;
+        padding: 13px;
+        background: $grey_0;
+        border-radius: 12px;
+        outline: none;
+        border: none;
+        margin-bottom: 18px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        color: #535657;
+
+        @include custom-query(768px, 1199px) {
+            padding: 25px;
+            font-size: 24px;
+            line-height: 36px;
+            width: 506px;
+            height: 86px;
+        }
+
+        @include custom-query(1200px, 9999px) {
+            padding: 25px;
+            font-size: 24px;
+            line-height: 36px;
+            width: 806px;
+            height: 86px;
+        }
+    }
+
+    &__textarea {
+        background: $grey_0;
+        width: 100%;
+        height: 187px;
+        border-radius: 12px;
+        outline: none;
+        border: none;
+        resize: none;
+        padding: 25px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        color: #535657;
+
+        @include custom-query(768px, 9999px) {
+            height: 187px;
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+
+    &__btn {
+        width: 90px;
+        height: 50px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        background-color: $royal_blue_700;
+        border-radius: 15px;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+        margin-top: 1.87rem;
+
+        @include custom-query(768px, 9999px) {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            width: 138px;
+            height: 66px;
+        }
+    }
+
+    &__btn:hover {
+        background-color: #ffffff;
+        color: $royal_blue_700;
+        border: 1px solid $royal_blue_700;
+    }
+
+}
