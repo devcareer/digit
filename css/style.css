@@ -1504,3 +1504,182 @@ select {
     @media (min-width: 1301px) and (max-width: 1440px) {
       .login__btn-desc {
         width: 400px; } }
+
+.reg__container {
+  display: flex;
+  height: 983px;
+  margin: 0 auto;
+  align-items: center; }
+
+.reg__img-box {
+  background: url("/assets/images/wes-hicks-4-EeTnaC1S4-unsplash 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 795px;
+  height: 983px;
+  position: relative; }
+  @media (min-width: 300px) and (max-width: 1300px) {
+    .reg__img-box {
+      display: none; } }
+
+.reg__logo-box {
+  display: flex;
+  margin-left: 6.2em;
+  gap: 1em;
+  padding-top: 2em;
+  width: 70px; }
+
+.reg__transparent {
+  width: 602px;
+  height: 192px;
+  position: absolute;
+  top: 40.625em;
+  left: 6.2em;
+  background: black;
+  background: rgba(250, 250, 250, 0.4);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  filter: blur(0.5px); }
+  @media (min-width: 1301px) and (max-width: 1400px) {
+    .reg__transparent {
+      left: 4em; } }
+
+.reg__title {
+  width: 88px;
+  height: 40px;
+  margin-left: 1.2em;
+  margin-top: 1em;
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 40px;
+  color: #F5F5F5; }
+  @media (min-width: 481px) and (max-width: 700px) {
+    .reg__title {
+      width: 50px; } }
+
+.reg__desc {
+  margin-left: 2em;
+  margin-top: 10px;
+  width: 528px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #F5F5F5; }
+
+.reg__form-container {
+  margin-left: 130px;
+  height: 983px;
+  margin: 0 auto; }
+  @media (min-width: 1301px) and (max-width: 1400px) {
+    .reg__form-container {
+      margin-left: 100px; } }
+  @media (min-width: 300px) and (max-width: 1300px) {
+    .reg__form-container {
+      height: 100vh;
+      padding: 15px; } }
+
+.reg__form-head {
+  width: 330px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  padding-top: 2em; }
+  @media (min-width: 300px) and (max-width: 1300px) {
+    .reg__form-head {
+      margin-top: -180px; } }
+
+.reg__form-desc {
+  width: 475px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px; }
+
+.reg__form {
+  width: 475px;
+  height: 750px; }
+  @media (min-width: 1301px) and (max-width: 1440px) {
+    .reg__form {
+      width: 400px; } }
+  @media (min-width: 1301px) and (max-width: 9999px) {
+    .reg__form {
+      margin-top: 50px;
+      overflow-y: scroll;
+      overflow-x: hidden; } }
+
+.reg__form::-webkit-scrollbar {
+  display: none; }
+
+.reg__label {
+  display: block;
+  margin: 0.3rem 0rem;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  width: 53px;
+  color: #111111;
+  padding-bottom: 1em; }
+
+.reg__label:nth-of-type(3) {
+  width: 145px; }
+
+.reg__label--active {
+  width: 187px; }
+
+.reg__input, .reg__submit {
+  width: 475px;
+  height: 50px;
+  background-color: #F5F5F5;
+  border: none;
+  border-radius: 8px;
+  padding: 16px;
+  outline: none;
+  margin-top: 0.5em; }
+  @media (min-width: 1301px) and (max-width: 1440px) {
+    .reg__input, .reg__submit {
+      width: 400px; } }
+
+.reg__input--active {
+  width: 205px; }
+
+.reg__input-flex {
+  display: flex;
+  align-items: center;
+  gap: 82px; }
+
+.reg__forget-pass {
+  float: right; }
+
+.reg__forget {
+  text-align: right;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #0d41e1;
+  margin-top: 50px; }
+
+.reg__submit {
+  width: 475px;
+  height: 50px;
+  padding: 4px 16px;
+  color: #FFFFFF;
+  background-color: #0d41e1;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px; }
+
+.reg__submit:hover {
+  background-color: #3464f5;
+  transform: translateY(-2px);
+  transition: all 2s ease; }
+
+.reg__btn-desc {
+  text-align: center;
+  width: 475px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  margin-top: 30px; }
+  @media (min-width: 1301px) and (max-width: 1440px) {
+    .reg__btn-desc {
+      width: 400px; } }
